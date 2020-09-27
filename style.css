@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500;900&display=swap');
+
+ *{
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+    font-family: Roboto,sans-serif;
+    font-size: 14px;
+    line-height: 1.5;
+    color: #fff;
+    background: #1c1c1c;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: url(https://interactive.aljazeera.com/aje/2020/know-their-names/image/background.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.container-countdown{
+    display: flex;
+}
+h4{
+  font-size: 2rem;  
+}
+.number>div{
+    font-size: 2rem;
+    font-weight: 400;
+}
+.number{
+    text-align:center;
+    padding: 0 20px;
+} 

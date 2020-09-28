@@ -1,34 +1,31 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500;900&display=swap');
-
- *{
+*{
     box-sizing: border-box;
 }
 body {
     margin: 0;
-    font-family: Roboto,sans-serif;
+    font-family: 'Roboto',sans-serif;
     font-size: 14px;
     line-height: 1.5;
-    color: #fff;
-    background: #1c1c1c;
+    color: #1c1c1c;
     min-height: 100vh;
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-image: url(https://interactive.aljazeera.com/aje/2020/know-their-names/image/background.jpg);
+    background: #81aac7 url(https://images.unsplash.com/photo-1468581264429-2548ef9eb732?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80) no-repeat;
     background-position: center;
     background-size: cover;
-    background-repeat: no-repeat;
-    padding:10px;
+    padding: 10px;
     text-align: center;
 }
 .container-countdown{
     display: flex;
 }
 h4{
-  font-size: 2rem;  
+    font-size: 2rem;  
 }
 .number>div{
-    font-size: 2rem;
+    font-size: 3rem;
     font-weight: 700;
     font-family: monospace;
 }

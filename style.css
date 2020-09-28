@@ -18,6 +18,8 @@ body {
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
+    padding:10px;
+    text-align: center;
 }
 .container-countdown{
     display: flex;
